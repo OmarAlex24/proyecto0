@@ -11,7 +11,7 @@ public class Triangulo {
     }
 
     public float calcularArea(){
-        if(this.base == (0) || this.altura == (0)){
+        if(this.base == 0 || this.altura == 0){
             System.out.println("No se puede calcular el area si uno de los valores es 0");
             return 0.0f;
         }
